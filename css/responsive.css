@@ -1,0 +1,158 @@
+@media screen and (max-width: 1024px) {
+
+    .main-menu {
+        display: none;
+    }
+
+    .mobile-menu-wrapper {
+        display: flex;
+    }
+
+    .hero-section {
+        height: unset;
+    }
+
+    .hero-inner-wrapper {
+        flex-direction: column;
+        height: unset;
+        padding: 20px;
+    }
+
+    .hero-left {
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .hero-left p {
+        margin-top: 20px;
+    }
+
+    .hero-right, .hero-right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-left h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    #hiw {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .hiw-left, .hiw-right {
+        width: 100%;
+        height: unset;
+    }
+
+    .hiw-left {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .hiw-right {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .hiw-right h5 {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .hiw-right ul {
+        width: 100%;
+    }
+
+    .hiw-right p {
+        width: 100%;
+    }
+
+    #discount {
+        padding: 50px 20px;
+    }
+
+    #discount h1 {
+        font-size: 40px;
+    }
+
+    #vegs {
+        padding: 20px;
+    }
+
+    #vegs h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .card {
+        width: calc((100% - 0px) / 1);
+    }
+
+    #revs {
+        padding: 20px;
+    }
+
+    .rev-title h1 {
+        font-size: 40px;
+    }
+
+    .review {
+        width: calc((100% - 0px) / 1);
+    }
+
+    #shopnow {
+        padding: 20px;
+    }
+
+    .shop-title h1 {
+        font-size: 40px;
+    }
+
+    .shop-wrapper {
+        flex-direction: column;
+    }
+
+    .form, .form-right {
+        max-width: 100%;
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+    }
+
+    .form-img {
+        height: 200px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .social-media, .social-media a {
+        font-size: 20px;
+    }
+
+    .img-overflow {
+        height: 300px;
+    }
+
+    .nav ul li .shop-btn {
+        text-align: center;
+        margin-top: 30px;
+        padding: 23px;
+    }
+}
